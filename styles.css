@@ -57,7 +57,7 @@ h2{
 
 #image1 {
   display:flex;
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -100,6 +100,9 @@ footer {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
  
+ .image1 {
+  max-width: 681px;
+  padding: 50px;
  
  .chart {
   max-width: 1200px;
