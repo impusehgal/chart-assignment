@@ -21,7 +21,6 @@ html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 18px;
     background-color: #f5f5dc
-    margin: 0 auto;
 }
 
 h1{
@@ -45,7 +44,7 @@ h2{
   text-align: left;
   font-size:  16px;
   font-style: bold;
-  padding-bottom: 0px;
+  padding: 5px;
   font-weight: bold;
 }
 
@@ -57,8 +56,8 @@ h2{
 }
 
 #image1 {
-  display:flex;
-  width: 60%;
+  display:block;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -102,8 +101,10 @@ footer {
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
  
  .image1 {
-  max-width: 681px;
+  max-width: 700px;
   padding: 50px;
+ }
+ 
  
  .chart {
   max-width: 1200px;
