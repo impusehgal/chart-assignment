@@ -57,8 +57,7 @@ h2{
 
 #image1 {
   display:block;
-  width: 100%;
-  margin: 0 auto;
+  width: 200;
 }
 .center {
   display: block;
@@ -93,12 +92,9 @@ footer {
   font-size: 12px'
 }
 .container {
-  display: flex;
-  text: flex;
-  max-width: 500px;
-  margin: auto;
-  text-align: justify;
-  padding: 15px
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 
@@ -110,17 +106,17 @@ footer {
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
  .image1 {
-  max-width: 300px;
-  padding: 50px;
+  max-width: 1200px;
+  margin:0 auto;
  }
  
  .image2 {
-  max-width: 200px;
-  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
  }
  .image3 {
-  max-width: 200px;
-  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
  }
  .chart {
   max-width: 1200px;
