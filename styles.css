@@ -26,7 +26,7 @@ html, body {
 h1{
   display: block;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 30px;
 }
 
@@ -80,7 +80,7 @@ figure {
 .container {
   display: flex;
   text: flex;
-  max-width: 1400px;
+  max-width: 1600px;
   margin: auto;
   text-align: justify;
   padding: 15px
