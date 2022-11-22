@@ -56,8 +56,8 @@ h2{
 }
 
 #image1 {
-  display:flex;
-  width: 100%
+  display:block;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ h2{
 figure {
   display: block;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -101,7 +101,7 @@ footer {
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
  
  .image1 {
-  max-width: 681px;
+  max-width:700px;
   padding: 50px;
  }
  
