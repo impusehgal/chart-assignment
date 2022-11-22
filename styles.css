@@ -80,7 +80,7 @@ figure {
 .container {
   display: flex;
   text: flex;
-  max-width: 500px;
+  max-width: 1200px;
   margin: auto;
   text-align: justify;
   padding: 15px
