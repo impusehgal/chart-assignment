@@ -57,7 +57,7 @@ h2{
 
 #image1 {
   display:block;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .center {
@@ -76,13 +76,13 @@ figure {
 
 #image2 {
   display:block;
-  width: 40%;
+  width: 60;
   margin: 0 auto:
 }
 
 #image3 {
   display:block;
-  width: 40%;
+  width: 60%;
   margin: 0 auto:
 }
 
@@ -110,10 +110,18 @@ footer {
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
  .image1 {
-  max-width: 500px;
+  max-width: 300px;
   padding: 50px;
  }
  
+ .image2 {
+  max-width: 200px;
+  padding: 20px;
+ }
+ .image3 {
+  max-width: 200px;
+  padding: 20px;
+ }
  .chart {
   max-width: 1200px;
   margin: 0 auto;
